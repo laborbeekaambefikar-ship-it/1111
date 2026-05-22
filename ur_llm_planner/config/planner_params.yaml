@@ -1,0 +1,10 @@
+llm_planner_node:
+  ros__parameters:
+    # Local Ollama model — no API key needed.
+    # Install: curl -fsSL https://ollama.ai/install.sh | sh
+    # Start:   ollama serve
+    # Pull:    ollama pull llama3.2:3b
+    ollama_model: "llama2:latest"
+    ollama_base_url: "http://localhost:11434"
+    auto_demo: false
+    auto_demo_command: "pick up the red object and place it to the left of the robot"
